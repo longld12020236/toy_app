@@ -54,9 +54,10 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-##Rails.application.routes.draw do
+  #Rails.application.routes.draw do
   resources :microposts
   resources :users
   root 'users#index'
+  root 'microposts#index'
 
 end
